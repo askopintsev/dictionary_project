@@ -23,7 +23,7 @@ class DictionariesView(ListAPIView):
 
     def get_queryset(self):
 
-        start_date = self.request.query_params.get("start_date", None)
+        start_date = self.request.query_params.get("start_date")
 
         # handling filled start_date parameter
         if start_date:
@@ -48,7 +48,7 @@ class ElementsView(ListAPIView):
     """Class provides view to work with dictionary Elements.
     API endpoint: <host>/api/elements/
     Accepts:
-        parent_dict: str (obligatory) - name of dictionary to filter its elements
+        parent_dict: str (required) - name of dictionary to filter its elements
         version: int (expecting)(non-mandatory) - version of dictionary to filter its elements
         element_code: str (non-mandatory) - code of element to be check for presence in dictionary
     Returns:
@@ -64,16 +64,15 @@ class ElementsView(ListAPIView):
     def get_queryset(self):
 
         # handling parent_dict parameter
-        try:
-            parent_name = self.request.query_params.get("parent_dict")
-        except IndexError:
+        parent_name = self.request.query_params.get("parent_dict")
+        if parent_name is None:
             raise ValidationError(
-                'Empty value for obligatory parent_dict parameter. Please fill value with name of the dictionary.'
+                'Empty value for required parent_dict parameter. Please fill value with name of the dictionary.'
             )
 
         # getting non-mandatory parameters
-        version = self.request.query_params.get("version", None)
-        element_code = self.request.query_params.get("element_code", None)
+        version = self.request.query_params.get("version")
+        element_code = self.request.query_params.get("element_code")
 
         # setting base for query
         query_string = '''SELECT e.id, element_code, value 
