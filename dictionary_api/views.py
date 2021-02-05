@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from rest_framework.exceptions import ValidationError
-from rest_framework.generics import ListAPIView, RetrieveAPIView
+from rest_framework.generics import ListAPIView
 
 from .models import Dictionary, Element
 from .serializers import DictionarySerializer, ElementSerializer

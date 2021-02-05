@@ -21,6 +21,7 @@ class Dictionary(models.Model):
     class Meta:
         unique_together = ('id', 'version')
         db_table = 'dictionary'
+        ordering = ('name',)
 
     def __str__(self):
         return str(self.name) + ' v.' + str(self.version)

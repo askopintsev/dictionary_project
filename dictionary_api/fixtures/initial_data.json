@@ -1,0 +1,512 @@
+[
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 9,
+    "fields": {
+      "name": "Dictionary_1",
+      "short_name": "dict1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2021-01-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 10,
+    "fields": {
+      "name": "Dictionary_2",
+      "short_name": "dict2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2020-12-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 11,
+    "fields": {
+      "name": "Dictionary_2",
+      "short_name": "dict2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "2",
+      "start_date": "2021-01-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 12,
+    "fields": {
+      "name": "Dictionary_3",
+      "short_name": "dict3",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2020-11-30T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 13,
+    "fields": {
+      "name": "Dictionary_3",
+      "short_name": "dict3",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "2",
+      "start_date": "2020-12-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 14,
+    "fields": {
+      "name": "Dictionary_3",
+      "short_name": "dict3",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "3",
+      "start_date": "2021-01-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 15,
+    "fields": {
+      "name": "Dictionary_4",
+      "short_name": "dict4",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2020-10-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 16,
+    "fields": {
+      "name": "Dictionary_4",
+      "short_name": "dict4",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "2",
+      "start_date": "2020-11-30T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 17,
+    "fields": {
+      "name": "Dictionary_4",
+      "short_name": "dict4",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "3",
+      "start_date": "2020-12-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 18,
+    "fields": {
+      "name": "Dictionary_4",
+      "short_name": "dict4",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "4",
+      "start_date": "2021-01-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 19,
+    "fields": {
+      "name": "Dictionary_5",
+      "short_name": "dict5",
+      "description": "Big dict",
+      "version": "1",
+      "start_date": "2020-09-30T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 20,
+    "fields": {
+      "name": "Dictionary_6",
+      "short_name": "dict6",
+      "description": "Empty dict",
+      "version": "1",
+      "start_date": "2020-08-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 21,
+    "fields": {
+      "name": "Dictionary_7",
+      "short_name": "dict7",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2021-01-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 22,
+    "fields": {
+      "name": "Dictionary_7",
+      "short_name": "dict7",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "2",
+      "start_date": "2021-02-05T09:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 23,
+    "fields": {
+      "name": "Dictionary_8",
+      "short_name": "dict8",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2020-11-30T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 24,
+    "fields": {
+      "name": "Dictionary_9",
+      "short_name": "dict9",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2020-10-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 25,
+    "fields": {
+      "name": "Dictionary_10",
+      "short_name": "dict10",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2021-01-31T21:00:00Z"
+    }
+  },
+  {
+    "model": "dictionary_api.dictionary",
+    "pk": 26,
+    "fields": {
+      "name": "Dictionary_11",
+      "short_name": "dict11",
+      "description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "version": "1",
+      "start_date": "2021-02-04T16:12:35Z"
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 13,
+    "fields": {
+      "element_code": "Element_1_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 14,
+    "fields": {
+      "element_code": "Element_1_2",
+      "value": "Lorem ipsum",
+      "parent": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 15,
+    "fields": {
+      "element_code": "Element_2_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 16,
+    "fields": {
+      "element_code": "Element_2_2",
+      "value": "Lorem ipsum",
+      "parent": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 17,
+    "fields": {
+      "element_code": "Element_3_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 18,
+    "fields": {
+      "element_code": "Element_3_2",
+      "value": "Lorem ipsum",
+      "parent": [
+        12,
+        14
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 19,
+    "fields": {
+      "element_code": "Element_3_3",
+      "value": "Lorem ipsum",
+      "parent": [
+        12,
+        13
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 20,
+    "fields": {
+      "element_code": "Element_4_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 21,
+    "fields": {
+      "element_code": "Element_4_2",
+      "value": "Lorem ipsum",
+      "parent": [
+        15,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 22,
+    "fields": {
+      "element_code": "Element_4_3",
+      "value": "Lorem ipsum",
+      "parent": [
+        15,
+        16,
+        18
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 23,
+    "fields": {
+      "element_code": "Element_4_4",
+      "value": "Lorem ipsum",
+      "parent": [
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 24,
+    "fields": {
+      "element_code": "Element_5_1",
+      "value": "Big dict 1",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 25,
+    "fields": {
+      "element_code": "Element_5_2",
+      "value": "Big dict 2",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 26,
+    "fields": {
+      "element_code": "Element_5_3",
+      "value": "Big dict 3",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 27,
+    "fields": {
+      "element_code": "Element_5_4",
+      "value": "Big dict 4",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 28,
+    "fields": {
+      "element_code": "Element_5_5",
+      "value": "Big dict 5",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 29,
+    "fields": {
+      "element_code": "Element_5_6",
+      "value": "Big dict 6",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 30,
+    "fields": {
+      "element_code": "Element_5_7",
+      "value": "Big dict 7",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 31,
+    "fields": {
+      "element_code": "Element_5_8",
+      "value": "Big dict 8",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 32,
+    "fields": {
+      "element_code": "Element_5_9",
+      "value": "Big dict 9",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 33,
+    "fields": {
+      "element_code": "Element_5_10",
+      "value": "Big dict 10",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 34,
+    "fields": {
+      "element_code": "Element_5_11",
+      "value": "Big dict 11",
+      "parent": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 35,
+    "fields": {
+      "element_code": "Element_7_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 36,
+    "fields": {
+      "element_code": "Element_8_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        23
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 37,
+    "fields": {
+      "element_code": "Element_9_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        24
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 38,
+    "fields": {
+      "element_code": "Element_10_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        25
+      ]
+    }
+  },
+  {
+    "model": "dictionary_api.element",
+    "pk": 39,
+    "fields": {
+      "element_code": "Element_11_1",
+      "value": "Lorem ipsum",
+      "parent": [
+        26
+      ]
+    }
+  }
+]

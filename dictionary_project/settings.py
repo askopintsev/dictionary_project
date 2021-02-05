@@ -82,6 +82,9 @@ DATABASES = {
     }
 }
 
+FIXTURE_DIRS = (
+   '/dictionary_api/fixtures/',
+)
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
