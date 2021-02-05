@@ -86,7 +86,7 @@ class ElementsView(ListAPIView):
         if version:
             try:
                 version = int(version)
-            except TypeError:
+            except ValueError:
                 raise ValidationError(
                     'Incorrect value for version parameter. Please use integer value.'
                 )
