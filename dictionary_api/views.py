@@ -84,12 +84,6 @@ class ElementsView(ListAPIView):
 
         # handling version parameter
         if version:
-            try:
-                version = int(version)
-            except ValueError:
-                raise ValidationError(
-                    'Incorrect value for version parameter. Please use integer value.'
-                )
             query_string += 'AND d.version = %s'
             arguments.append(version)
         else:

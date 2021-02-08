@@ -19,7 +19,7 @@ class Dictionary(models.Model):
     start_date = models.DateTimeField()
 
     class Meta:
-        unique_together = ('id', 'version')
+        unique_together = ('name', 'version')  # changed from id
         db_table = 'dictionary'
         ordering = ('name',)
 
@@ -38,7 +38,7 @@ class Element(models.Model):
 
     parent = models.ManyToManyField(Dictionary,
                                     related_name='elements')
-    element_code = models.CharField(max_length=50, blank=False)
+    element_code = models.CharField(max_length=50, blank=False, unique=True)
     value = models.CharField(max_length=200, blank=False)
 
     class Meta:
